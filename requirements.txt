@@ -1,11 +1,4 @@
-fastapi==0.110.0
-uvicorn==0.29.0
-transformers==4.38.2
-torch==2.2.0
-accelerate==0.28.0
-safetensors==0.4.2
-huggingface_hub==0.22.2
-pydantic==2.6.4
-react-icons==5.4.0
-react-syntax-highlighter
-pip install fastapi uvicorn transformers torch accelerate safetensors huggingface_hub pydantic
+fastapi
+uvicorn
+transformers
+torch
