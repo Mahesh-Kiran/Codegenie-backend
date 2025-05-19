@@ -5,7 +5,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 # ✅ Load DeepSeek Coder model
-MODEL_NAME = "deepseek-ai/deepseek-coder-6.7b-instruct"  # Ensure correct model version
+MODEL_NAME = "deepseek-ai/deepseek-coder-1.3b-instruct"  # Ensure correct model version
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, cache_dir="./deepseek_model")
 model = AutoModelForCausalLM.from_pretrained(
